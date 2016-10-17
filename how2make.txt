@@ -1,0 +1,7 @@
+g++.exe -Wall -fexceptions -std=c++0x -g  -c fileParser.cpp -o fileParser.o
+g++.exe -Wall -fexceptions -std=c++0x -g  -c gprSim.cpp -o gprSim.o
+g++.exe -Wall -fexceptions -std=c++0x -g  -c loader.cpp -o loader.o
+g++.exe -Wall -fexceptions -std=c++0x -g  -c memorySim.cpp -o memorySim.o
+g++.exe -Wall -fexceptions -std=c++0x -g  -c mipsDataTypes.cpp -o mipsDataTypes.o
+g++.exe  -o simuProj.exe fileParser.o gprSim.o loader.o memorySim.o mipsDataTypes.o   
+simuProj.exe with size 955.76 KB
